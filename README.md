@@ -1,2 +1,2 @@
-# Introducció a la Probabilidad y estadística
+# Introducción a la Probabilidad y estadística
 Programas en Python para introducción a la probabilidad y estadística
