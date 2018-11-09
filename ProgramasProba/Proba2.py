@@ -89,40 +89,6 @@ def gFdfvac(Intervalo,f,titulo='Funcion de distribución $F(x)$',          guard
     plt.show()
 
 
-# In[ ]:
-
-
-def gFdvac(Intervalo,F,titulo='Funcion de distribucion de probabilidad $F(x)$',          guardar=False):
-    fig=plt.figure(figsize=(8,4))#
-    ax=plt.axes()
-    x=np.linspace(Intervalo[0],Intervalo[1],300)
-    y=F(x)
-    ax.plot(x,y,c='r',lw=3,label=r'Grafica de $F(x)$')
-    ax.grid()
-    ax.set_xlabel('Valores de la variable aleatoria $X$',fontsize=15)
-    ax.set_ylabel('Valores de $F(x)$',fontsize=15)
-    ax.set_title('Funcion de distribcucion de probabilidad $F(x)$',fontsize=20)
-    leg = plt.legend(loc='best', shadow=True, fancybox=True)
-    leg.get_frame().set_alpha(0.9)
-    ax.xaxis.set_label_coords(0.5, -0.05)
-    ax.yaxis.set_label_coords(-0.08,0.5)
-    ax.spines['right'].set_color('none')
-    ax.spines['top'].set_color('none')
-    ax.xaxis.set_ticks_position('bottom')
-    ax.spines['bottom'].set_position(('data',0))
-    ax.yaxis.set_ticks_position('left')
-    ax.spines['left'].set_position(('data',0))
-    xlim=ax.get_xlim()
-    ylim=ax.get_ylim()
-    ax.set_xlim(min(xlim[0]*(0.9),xlim[0]*(1.1)),max(xlim[1]*1.1,xlim[1]*0.9))
-    ax.set_ylim(-0.2,max(ylim[1]*1.1,ylim[1]*0.9))
-    if guardar:
-        plt.savefig("Fvac.png")# Se puede guardar solo en el formato deseado
-        plt.savefig("Fvac.pdf")#
-        plt.savefig("Fvac.jpg")#
-    plt.show()
-
-
 # In[2]:
 
 
