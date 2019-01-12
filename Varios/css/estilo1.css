@@ -132,7 +132,7 @@ div pre
   width: 80%;
   background-color: white;
   /*box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.2);*/
-  margin-bottom: 25px;
+  margin-bottom: 25px;/*25x*/
     margin-left:auto;
     margin-right:auto;
     margin-top:2%;
@@ -140,7 +140,7 @@ div pre
 
 .despolaroid p{
   text-align: center;
-  padding: 10px 20px;
+  padding: 10px 20px;/*10px 20px*/
     margin-left:auto;
     margin-right:auto;
     font-size: 0.8em;
@@ -150,14 +150,12 @@ div pre
 }
 
 
- img2 {
+ 
+ img {
     /*display: block;
     margin: auto;*/
-    width: 95%;
     border-bottom: 4px solid #ddd;
-    padding: 5px;
-}
-
+    }
 
 .MathJax a:hover, .MathJax a:active {
   color: green;
