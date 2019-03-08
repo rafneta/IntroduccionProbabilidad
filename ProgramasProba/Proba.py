@@ -39,7 +39,7 @@ def gfdvac(Intervalo,f,titulo='Funcion de densidad de probabilidad $f(x)$',     
     if guardar:
         plt.savefig("fvac.png")# Se puede guardar solo en el formato deseado
         plt.savefig("fvac.pdf")#
-        plt.savefig("fvac.jpg")#
+        #plt.savefig("fvac.jpg")#
     plt.show()
 
 
@@ -85,7 +85,7 @@ def gFdfvac(Intervalo,f,titulo='Funcion de distribución $F(x)$',          guard
     if guardar:
         plt.savefig("Fvac.png")# Se puede guardar solo en el formato deseado
         plt.savefig("Fvac.pdf")#
-        plt.savefig("Fvac.jpg")#
+       # plt.savefig("Fvac.jpg")#
     plt.show()
 
 
@@ -119,7 +119,7 @@ def gFdvac(Intervalo,F,titulo='Funcion de distribucion de probabilidad $F(x)$', 
     if guardar:
         plt.savefig("Fvac.png")# Se puede guardar solo en el formato deseado
         plt.savefig("Fvac.pdf")#
-        plt.savefig("Fvac.jpg")#
+        #plt.savefig("Fvac.jpg")#
     plt.show()
 
 
@@ -159,7 +159,7 @@ def gfpvad(x,f,          titulo='Funcion de probabilidad $f(x)$',guardar=False,e
     if guardar:
         plt.savefig("fvad.png")# Se puede guardar solo en el formato deseado
         plt.savefig("fvad.pdf")#
-        plt.savefig("fvad.jpg")#
+        #plt.savefig("fvad.jpg")#
     
     plt.show()
 
@@ -211,7 +211,7 @@ def gFdfvad(x,f,          titulo='Funcion de distribucion $F(x)$',guardar=False,
     if guardar:
         plt.savefig("Fvad.png")# Se puede guardar solo en el formato deseado
         plt.savefig("Fvad.pdf")#
-        plt.savefig("Fvad.jpg")#
+       # plt.savefig("Fvad.jpg")#
     
     plt.show()
 
